@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: lightBlue;
+}
+
+body {
+  font-family: sans-serif;
+  position: relative;
+}
+
+.node {
+}
+
+.cell-text{
+  font-size: .5em;
+  word-wrap: break-word;
+}
+
+div.tooltip {
+  background-color: lightGreen;
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  text-align: center;
+  min-width: 150px;
+  height: auto;
+  padding: 5px;
+  border: .5px solid black;
+  border-radius: 5px;
+}
